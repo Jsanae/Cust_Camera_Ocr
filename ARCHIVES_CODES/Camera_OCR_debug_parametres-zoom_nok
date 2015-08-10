@@ -1,0 +1,637 @@
+Camera_OCR_debug_parametres-zoom_nok
+
+04-22 08:39:45.724: I/System.out(11836): Sending WAIT chunk
+04-22 08:39:45.724: W/ActivityThread(11836): Application com.datumdroid.android.ocr.simple is waiting for the debugger on port 8100...
+04-22 08:39:45.754: I/dalvikvm(11836): Debugger is active
+04-22 08:39:45.924: I/System.out(11836): Debugger has connected
+04-22 08:39:45.924: I/System.out(11836): waiting for debugger to settle...
+04-22 08:39:46.125: I/System.out(11836): waiting for debugger to settle...
+04-22 08:39:46.325: I/System.out(11836): waiting for debugger to settle...
+04-22 08:39:46.525: I/System.out(11836): waiting for debugger to settle...
+04-22 08:39:46.725: I/System.out(11836): waiting for debugger to settle...
+04-22 08:39:46.925: I/System.out(11836): waiting for debugger to settle...
+04-22 08:39:47.126: I/System.out(11836): waiting for debugger to settle...
+04-22 08:39:47.336: I/System.out(11836): debugger has settled (1479)
+04-22 08:39:47.346: W/ApplicationPackageManager(11836): getCSCPackageItemText()
+04-22 08:39:47.356: I/PersonaManager(11836): getPersonaService() name persona_policy
+04-22 08:39:47.506: E/MoreInfoHPW_ViewGroup(11836): Parent view is not a TextView
+04-22 08:39:47.736: I/Adreno-EGL(11836): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 08:39:47.736: I/Adreno-EGL(11836): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 08:39:47.736: I/Adreno-EGL(11836): Build Date: 01/17/14 Fri
+04-22 08:39:47.736: I/Adreno-EGL(11836): Local Branch: 
+04-22 08:39:47.736: I/Adreno-EGL(11836): Remote Branch: 
+04-22 08:39:47.736: I/Adreno-EGL(11836): Local Patches: 
+04-22 08:39:47.736: I/Adreno-EGL(11836): Reconstruct Branch: 
+04-22 08:39:47.766: D/OpenGLRenderer(11836): Enabling debug mode 0
+04-22 08:39:49.538: V/CarteVitaleOCRActivity.java(11836): Starting Camera app
+04-22 08:39:49.608: W/ApplicationPackageManager(11836): getCSCPackageItemText()
+04-22 08:39:49.608: I/PersonaManager(11836): getPersonaService() name persona_policy
+04-22 08:39:49.678: E/MoreInfoHPW_ViewGroup(11836): Parent view is not a TextView
+04-22 08:39:49.958: D/(11836):  camera exists on device 
+04-22 08:39:50.549: I/Choreographer(11836): Skipped 56 frames!  The application may be doing too much work on its main thread.
+04-22 08:39:50.679: W/CameraBase(11836): An error occurred while connecting to camera: 0
+04-22 08:40:06.124: D/AndroidRuntime(11836): Shutting down VM
+04-22 08:40:06.124: W/dalvikvm(11836): threadid=1: thread exiting with uncaught exception (group=0x418e6da0)
+04-22 08:40:06.184: E/AndroidRuntime(11836): FATAL EXCEPTION: main
+04-22 08:40:06.184: E/AndroidRuntime(11836): Process: com.datumdroid.android.ocr.simple, PID: 11836
+04-22 08:40:06.184: E/AndroidRuntime(11836): java.lang.RuntimeException: Fail to connect to camera service
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.hardware.Camera.native_setup(Native Method)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.hardware.Camera.<init>(Camera.java:423)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.hardware.Camera.open(Camera.java:393)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceCreated(CameraPreview.java:57)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:601)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.os.Looper.loop(Looper.java:157)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 08:40:06.184: E/AndroidRuntime(11836): 	at dalvik.system.NativeStart.main(Native Method)
+
+La camera n'est pas initialisée ==> je modifie le constructeur du code à tester
+
+04-22 08:49:01.476: W/ActivityThread(13205): Application com.datumdroid.android.ocr.simple is waiting for the debugger on port 8100...
+04-22 08:49:01.486: I/System.out(13205): Sending WAIT chunk
+04-22 08:49:01.496: I/dalvikvm(13205): Debugger is active
+04-22 08:49:01.687: I/System.out(13205): Debugger has connected
+04-22 08:49:01.687: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:01.887: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:02.087: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:02.287: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:02.487: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:02.688: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:02.888: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:03.088: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:03.288: I/System.out(13205): waiting for debugger to settle...
+04-22 08:49:03.488: I/System.out(13205): debugger has settled (1319)
+04-22 08:49:03.528: W/ApplicationPackageManager(13205): getCSCPackageItemText()
+04-22 08:49:03.528: I/PersonaManager(13205): getPersonaService() name persona_policy
+04-22 08:49:03.859: E/MoreInfoHPW_ViewGroup(13205): Parent view is not a TextView
+04-22 08:49:04.119: I/Adreno-EGL(13205): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 08:49:04.119: I/Adreno-EGL(13205): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 08:49:04.119: I/Adreno-EGL(13205): Build Date: 01/17/14 Fri
+04-22 08:49:04.119: I/Adreno-EGL(13205): Local Branch: 
+04-22 08:49:04.119: I/Adreno-EGL(13205): Remote Branch: 
+04-22 08:49:04.119: I/Adreno-EGL(13205): Local Patches: 
+04-22 08:49:04.119: I/Adreno-EGL(13205): Reconstruct Branch: 
+04-22 08:49:04.149: D/OpenGLRenderer(13205): Enabling debug mode 0
+04-22 08:49:08.183: V/CarteVitaleOCRActivity.java(13205): Starting Camera app
+04-22 08:49:08.283: W/ApplicationPackageManager(13205): getCSCPackageItemText()
+04-22 08:49:08.283: I/PersonaManager(13205): getPersonaService() name persona_policy
+04-22 08:49:08.353: E/MoreInfoHPW_ViewGroup(13205): Parent view is not a TextView
+04-22 08:49:08.633: D/(13205):  camera exists on device 
+04-22 08:49:09.214: I/Choreographer(13205): Skipped 57 frames!  The application may be doing too much work on its main thread.
+04-22 08:49:09.324: W/CameraBase(13205): An error occurred while connecting to camera: 0
+04-22 08:49:20.755: D/AndroidRuntime(13205): Shutting down VM
+04-22 08:49:20.755: W/dalvikvm(13205): threadid=1: thread exiting with uncaught exception (group=0x418e6da0)
+04-22 08:49:20.785: E/AndroidRuntime(13205): FATAL EXCEPTION: main
+04-22 08:49:20.785: E/AndroidRuntime(13205): Process: com.datumdroid.android.ocr.simple, PID: 13205
+04-22 08:49:20.785: E/AndroidRuntime(13205): java.lang.RuntimeException: Fail to connect to camera service
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.hardware.Camera.native_setup(Native Method)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.hardware.Camera.<init>(Camera.java:423)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.hardware.Camera.open(Camera.java:393)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceCreated(CameraPreview.java:57)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:601)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.os.Looper.loop(Looper.java:157)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at dalvik.system.NativeStart.main(Native Method)
+
+04-22 08:49:08.633: D/(13205):  camera exists on device 
+04-22 08:49:09.214: I/Choreographer(13205): Skipped 57 frames!  The application may be doing too much work on its main thread.
+04-22 08:49:09.324: W/CameraBase(13205): An error occurred while connecting to camera: 0
+04-22 08:49:20.755: D/AndroidRuntime(13205): Shutting down VM
+04-22 08:49:20.755: W/dalvikvm(13205): threadid=1: thread exiting with uncaught exception (group=0x418e6da0)
+04-22 08:49:20.785: E/AndroidRuntime(13205): FATAL EXCEPTION: main
+04-22 08:49:20.785: E/AndroidRuntime(13205): Process: com.datumdroid.android.ocr.simple, PID: 13205
+04-22 08:49:20.785: E/AndroidRuntime(13205): java.lang.RuntimeException: Fail to connect to camera service
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.hardware.Camera.native_setup(Native Method)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.hardware.Camera.<init>(Camera.java:423)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.hardware.Camera.open(Camera.java:393)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceCreated(CameraPreview.java:57)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:601)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.os.Looper.loop(Looper.java:157)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 08:49:20.785: E/AndroidRuntime(13205): 	at dalvik.system.NativeStart.main(Native Method)
+04-22 08:51:58.629: I/Process(13205): Sending signal. PID: 13205 SIG: 9
+04-22 08:52:02.503: W/ActivityThread(14334): Application com.datumdroid.android.ocr.simple is waiting for the debugger on port 8100...
+04-22 08:52:02.513: I/System.out(14334): Sending WAIT chunk
+04-22 08:52:02.533: I/dalvikvm(14334): Debugger is active
+04-22 08:52:02.713: I/System.out(14334): Debugger has connected
+04-22 08:52:02.713: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:02.913: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:03.104: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:03.304: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:03.504: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:03.704: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:03.904: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:04.105: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:04.305: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:04.505: I/System.out(14334): waiting for debugger to settle...
+04-22 08:52:04.715: I/System.out(14334): debugger has settled (1474)
+04-22 08:52:04.725: W/ApplicationPackageManager(14334): getCSCPackageItemText()
+04-22 08:52:04.725: I/PersonaManager(14334): getPersonaService() name persona_policy
+04-22 08:52:04.885: E/MoreInfoHPW_ViewGroup(14334): Parent view is not a TextView
+04-22 08:52:05.095: I/Adreno-EGL(14334): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 08:52:05.095: I/Adreno-EGL(14334): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 08:52:05.095: I/Adreno-EGL(14334): Build Date: 01/17/14 Fri
+04-22 08:52:05.095: I/Adreno-EGL(14334): Local Branch: 
+04-22 08:52:05.095: I/Adreno-EGL(14334): Remote Branch: 
+04-22 08:52:05.095: I/Adreno-EGL(14334): Local Patches: 
+04-22 08:52:05.095: I/Adreno-EGL(14334): Reconstruct Branch: 
+04-22 08:52:05.126: D/OpenGLRenderer(14334): Enabling debug mode 0
+04-22 08:52:10.200: V/CarteVitaleOCRActivity.java(14334): Starting Camera app
+04-22 08:52:10.391: W/ApplicationPackageManager(14334): getCSCPackageItemText()
+04-22 08:52:10.391: I/PersonaManager(14334): getPersonaService() name persona_policy
+04-22 08:52:10.461: E/MoreInfoHPW_ViewGroup(14334): Parent view is not a TextView
+04-22 08:52:10.751: D/(14334):  camera exists on device 
+
+
+****************
+04-22 08:58:58.148: D/(16049):  camera exists on device 
+04-22 09:06:22.603: W/jdwp(16049): Debugger is telling the VM to exit with code=1
+04-22 09:06:22.603: I/dalvikvm(16049): GC lifetime allocation: 56923 bytes
+04-22 09:06:22.853: I/System.out(16835): Sending WAIT chunk
+04-22 09:06:22.853: W/ActivityThread(16835): Application com.datumdroid.android.ocr.simple is waiting for the debugger on port 8100...
+04-22 09:06:29.319: I/dalvikvm(16835): Debugger is active
+04-22 09:06:29.459: I/System.out(16835): Debugger has connected
+04-22 09:06:29.459: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:29.660: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:29.860: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:30.060: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:30.260: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:30.460: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:30.671: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:30.871: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:31.061: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:31.271: I/System.out(16835): waiting for debugger to settle...
+04-22 09:06:31.471: I/System.out(16835): debugger has settled (1402)
+04-22 09:06:31.612: W/ApplicationPackageManager(16835): getCSCPackageItemText()
+04-22 09:06:31.612: I/PersonaManager(16835): getPersonaService() name persona_policy
+04-22 09:06:31.782: E/MoreInfoHPW_ViewGroup(16835): Parent view is not a TextView
+04-22 09:06:32.212: D/(16835):  camera exists on device 
+04-22 09:06:32.993: I/Adreno-EGL(16835): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 09:06:32.993: I/Adreno-EGL(16835): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 09:06:32.993: I/Adreno-EGL(16835): Build Date: 01/17/14 Fri
+04-22 09:06:32.993: I/Adreno-EGL(16835): Local Branch: 
+04-22 09:06:32.993: I/Adreno-EGL(16835): Remote Branch: 
+04-22 09:06:32.993: I/Adreno-EGL(16835): Local Patches: 
+04-22 09:06:32.993: I/Adreno-EGL(16835): Reconstruct Branch: 
+04-22 09:06:33.033: D/OpenGLRenderer(16835): Enabling debug mode 0
+04-22 09:06:33.083: W/CameraBase(16835): An error occurred while connecting to camera: 0
+04-22 09:06:48.888: D/AndroidRuntime(16835): Shutting down VM
+04-22 09:06:48.888: W/dalvikvm(16835): threadid=1: thread exiting with uncaught exception (group=0x418e6da0)
+04-22 09:06:48.988: E/AndroidRuntime(16835): FATAL EXCEPTION: main
+04-22 09:06:48.988: E/AndroidRuntime(16835): Process: com.datumdroid.android.ocr.simple, PID: 16835
+04-22 09:06:48.988: E/AndroidRuntime(16835): java.lang.RuntimeException: Fail to connect to camera service
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.hardware.Camera.native_setup(Native Method)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.hardware.Camera.<init>(Camera.java:423)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.hardware.Camera.open(Camera.java:393)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceCreated(CameraPreview.java:57)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:601)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.os.Looper.loop(Looper.java:157)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at dalvik.system.NativeStart.main(Native Method)
+****
+04-22 09:06:32.212: D/(16835):  camera exists on device 
+04-22 09:06:32.993: I/Adreno-EGL(16835): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 09:06:32.993: I/Adreno-EGL(16835): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 09:06:32.993: I/Adreno-EGL(16835): Build Date: 01/17/14 Fri
+04-22 09:06:32.993: I/Adreno-EGL(16835): Local Branch: 
+04-22 09:06:32.993: I/Adreno-EGL(16835): Remote Branch: 
+04-22 09:06:32.993: I/Adreno-EGL(16835): Local Patches: 
+04-22 09:06:32.993: I/Adreno-EGL(16835): Reconstruct Branch: 
+04-22 09:06:33.033: D/OpenGLRenderer(16835): Enabling debug mode 0
+04-22 09:06:33.083: W/CameraBase(16835): An error occurred while connecting to camera: 0
+04-22 09:06:48.888: D/AndroidRuntime(16835): Shutting down VM
+04-22 09:06:48.888: W/dalvikvm(16835): threadid=1: thread exiting with uncaught exception (group=0x418e6da0)
+04-22 09:06:48.988: E/AndroidRuntime(16835): FATAL EXCEPTION: main
+04-22 09:06:48.988: E/AndroidRuntime(16835): Process: com.datumdroid.android.ocr.simple, PID: 16835
+04-22 09:06:48.988: E/AndroidRuntime(16835): java.lang.RuntimeException: Fail to connect to camera service
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.hardware.Camera.native_setup(Native Method)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.hardware.Camera.<init>(Camera.java:423)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.hardware.Camera.open(Camera.java:393)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceCreated(CameraPreview.java:57)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:601)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.os.Looper.loop(Looper.java:157)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 09:06:48.988: E/AndroidRuntime(16835): 	at dalvik.system.NativeStart.main(Native Method)
+04-22 09:07:33.622: I/Process(16835): Sending signal. PID: 16835 SIG: 9
+04-22 09:07:56.324: I/System.out(17915): Sending WAIT chunk
+04-22 09:07:56.324: W/ActivityThread(17915): Application com.datumdroid.android.ocr.simple is waiting for the debugger on port 8100...
+04-22 09:07:56.354: I/dalvikvm(17915): Debugger is active
+04-22 09:07:56.524: I/System.out(17915): Debugger has connected
+04-22 09:07:56.534: I/System.out(17915): waiting for debugger to settle...
+04-22 09:07:56.735: I/System.out(17915): waiting for debugger to settle...
+04-22 09:07:56.935: I/System.out(17915): waiting for debugger to settle...
+04-22 09:07:57.135: I/System.out(17915): waiting for debugger to settle...
+04-22 09:07:57.335: I/System.out(17915): waiting for debugger to settle...
+04-22 09:07:57.535: I/System.out(17915): waiting for debugger to settle...
+04-22 09:07:57.736: I/System.out(17915): waiting for debugger to settle...
+04-22 09:07:57.936: I/System.out(17915): debugger has settled (1417)
+04-22 09:07:57.966: W/ApplicationPackageManager(17915): getCSCPackageItemText()
+04-22 09:07:57.966: I/PersonaManager(17915): getPersonaService() name persona_policy
+04-22 09:07:58.086: E/MoreInfoHPW_ViewGroup(17915): Parent view is not a TextView
+04-22 09:07:58.306: I/Adreno-EGL(17915): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 09:07:58.306: I/Adreno-EGL(17915): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 09:07:58.306: I/Adreno-EGL(17915): Build Date: 01/17/14 Fri
+04-22 09:07:58.306: I/Adreno-EGL(17915): Local Branch: 
+04-22 09:07:58.306: I/Adreno-EGL(17915): Remote Branch: 
+04-22 09:07:58.306: I/Adreno-EGL(17915): Local Patches: 
+04-22 09:07:58.306: I/Adreno-EGL(17915): Reconstruct Branch: 
+04-22 09:07:58.346: D/OpenGLRenderer(17915): Enabling debug mode 0
+04-22 09:08:03.611: V/CarteVitaleOCRActivity.java(17915): Starting Camera app
+04-22 09:08:03.751: W/ApplicationPackageManager(17915): getCSCPackageItemText()
+04-22 09:08:03.751: I/PersonaManager(17915): getPersonaService() name persona_policy
+04-22 09:08:03.821: E/MoreInfoHPW_ViewGroup(17915): Parent view is not a TextView
+04-22 09:08:04.172: D/(17915):  camera exists on device 
+04-22 09:08:04.782: I/Choreographer(17915): Skipped 62 frames!  The application may be doing too much work on its main thread.
+04-22 09:08:25.383: D/AndroidRuntime(17915): Shutting down VM
+04-22 09:08:25.383: W/dalvikvm(17915): threadid=1: thread exiting with uncaught exception (group=0x418e6da0)
+04-22 09:08:25.443: E/AndroidRuntime(17915): FATAL EXCEPTION: main
+04-22 09:08:25.443: E/AndroidRuntime(17915): Process: com.datumdroid.android.ocr.simple, PID: 17915
+04-22 09:08:25.443: E/AndroidRuntime(17915): java.lang.NullPointerException
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceCreated(CameraPreview.java:58)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:601)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.os.Looper.loop(Looper.java:157)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 09:08:25.443: E/AndroidRuntime(17915): 	at dalvik.system.NativeStart.main(Native Method)
+
+La camera coté Preview n'est pas init. Seule la camera coté CameraActivity l'est:
+==> j'init mCamera coté Preview avec mCamera coté CameraActivity
+*******************
+
+04-22 09:14:28.176: E/AndroidRuntime(18968): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 09:14:28.176: E/AndroidRuntime(18968): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 09:14:28.176: E/AndroidRuntime(18968): 	at dalvik.system.NativeStart.main(Native Method)
+04-22 09:14:33.011: I/Process(18968): Sending signal. PID: 18968 SIG: 9
+04-22 09:14:57.415: W/ActivityThread(20495): Application com.datumdroid.android.ocr.simple is waiting for the debugger on port 8100...
+04-22 09:14:57.425: I/System.out(20495): Sending WAIT chunk
+04-22 09:14:57.435: I/dalvikvm(20495): Debugger is active
+04-22 09:14:57.625: I/System.out(20495): Debugger has connected
+04-22 09:14:57.625: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:57.835: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:58.036: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:58.236: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:58.436: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:58.646: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:58.836: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:59.037: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:59.237: I/System.out(20495): waiting for debugger to settle...
+04-22 09:14:59.437: I/System.out(20495): debugger has settled (1306)
+04-22 09:14:59.477: W/ApplicationPackageManager(20495): getCSCPackageItemText()
+04-22 09:14:59.487: I/PersonaManager(20495): getPersonaService() name persona_policy
+04-22 09:14:59.617: E/MoreInfoHPW_ViewGroup(20495): Parent view is not a TextView
+04-22 09:14:59.807: I/Adreno-EGL(20495): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 09:14:59.807: I/Adreno-EGL(20495): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 09:14:59.807: I/Adreno-EGL(20495): Build Date: 01/17/14 Fri
+04-22 09:14:59.807: I/Adreno-EGL(20495): Local Branch: 
+04-22 09:14:59.807: I/Adreno-EGL(20495): Remote Branch: 
+04-22 09:14:59.807: I/Adreno-EGL(20495): Local Patches: 
+04-22 09:14:59.807: I/Adreno-EGL(20495): Reconstruct Branch: 
+04-22 09:14:59.837: D/OpenGLRenderer(20495): Enabling debug mode 0
+04-22 09:15:09.036: V/CarteVitaleOCRActivity.java(20495): Starting Camera app
+04-22 09:15:09.176: W/ApplicationPackageManager(20495): getCSCPackageItemText()
+04-22 09:15:09.176: I/PersonaManager(20495): getPersonaService() name persona_policy
+04-22 09:15:09.247: E/MoreInfoHPW_ViewGroup(20495): Parent view is not a TextView
+04-22 09:15:09.527: D/(20495):  camera exists on device 
+04-22 09:15:27.204: D/AndroidRuntime(20495): Shutting down VM
+04-22 09:15:27.204: W/dalvikvm(20495): threadid=1: thread exiting with uncaught exception (group=0x418e6da0)
+04-22 09:15:27.274: E/AndroidRuntime(20495): FATAL EXCEPTION: main
+04-22 09:15:27.274: E/AndroidRuntime(20495): Process: com.datumdroid.android.ocr.simple, PID: 20495
+04-22 09:15:27.274: E/AndroidRuntime(20495): java.lang.RuntimeException: setParameters failed
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.hardware.Camera.native_setParameters(Native Method)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.hardware.Camera.setParameters(Camera.java:1747)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceCreated(CameraPreview.java:88)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:601)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.os.Looper.loop(Looper.java:157)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 09:15:27.274: E/AndroidRuntime(20495): 	at dalvik.system.NativeStart.main(Native Method)
+
+L'affectation de params pose pb
+
+
+*************
+04-22 09:34:41.212: I/dalvikvm(3888): Debugger is active
+04-22 09:34:41.302: I/System.out(3888): Debugger has connected
+04-22 09:34:41.302: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:41.502: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:41.703: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:41.903: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:42.103: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:42.303: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:42.503: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:42.704: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:42.904: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:43.104: I/System.out(3888): waiting for debugger to settle...
+04-22 09:34:43.304: I/System.out(3888): debugger has settled (1354)
+04-22 09:34:43.374: W/ApplicationPackageManager(3888): getCSCPackageItemText()
+04-22 09:34:43.374: I/PersonaManager(3888): getPersonaService() name persona_policy
+04-22 09:34:43.524: E/MoreInfoHPW_ViewGroup(3888): Parent view is not a TextView
+04-22 09:34:43.765: I/Adreno-EGL(3888): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 09:34:43.765: I/Adreno-EGL(3888): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 09:34:43.765: I/Adreno-EGL(3888): Build Date: 01/17/14 Fri
+04-22 09:34:43.765: I/Adreno-EGL(3888): Local Branch: 
+04-22 09:34:43.765: I/Adreno-EGL(3888): Remote Branch: 
+04-22 09:34:43.765: I/Adreno-EGL(3888): Local Patches: 
+04-22 09:34:43.765: I/Adreno-EGL(3888): Reconstruct Branch: 
+04-22 09:34:43.805: D/OpenGLRenderer(3888): Enabling debug mode 0
+04-22 09:34:47.358: V/CarteVitaleOCRActivity.java(3888): Starting Camera app
+04-22 09:34:47.528: W/ApplicationPackageManager(3888): getCSCPackageItemText()
+04-22 09:34:47.538: I/PersonaManager(3888): getPersonaService() name persona_policy
+04-22 09:34:47.598: E/MoreInfoHPW_ViewGroup(3888): Parent view is not a TextView
+04-22 09:34:47.949: D/(3888):  camera exists on device 
+04-22 09:35:28.028: D/AndroidRuntime(3888): Shutting down VM
+04-22 09:35:28.028: W/dalvikvm(3888): threadid=1: thread exiting with uncaught exception (group=0x4186eda0)
+04-22 09:35:28.098: E/AndroidRuntime(3888): FATAL EXCEPTION: main
+04-22 09:35:28.098: E/AndroidRuntime(3888): Process: com.datumdroid.android.ocr.simple, PID: 3888
+04-22 09:35:28.098: E/AndroidRuntime(3888): java.lang.NullPointerException
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceChanged(CameraPreview.java:119)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:612)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.os.Looper.loop(Looper.java:157)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 09:35:28.098: E/AndroidRuntime(3888): 	at dalvik.system.NativeStart.main(Native Method)
+
+*************
+04-22 09:40:17.220: D/AndroidRuntime(7609): Shutting down VM
+04-22 09:40:17.220: W/dalvikvm(7609): threadid=1: thread exiting with uncaught exception (group=0x4186eda0)
+04-22 09:40:17.270: E/AndroidRuntime(7609): FATAL EXCEPTION: main
+04-22 09:40:17.270: E/AndroidRuntime(7609): Process: com.datumdroid.android.ocr.simple, PID: 7609
+04-22 09:40:17.270: E/AndroidRuntime(7609): java.lang.NullPointerException
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceChanged(CameraPreview.java:119)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:612)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.os.Looper.loop(Looper.java:157)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 09:40:17.270: E/AndroidRuntime(7609): 	at dalvik.system.NativeStart.main(Native Method)
+
+_zoomControls n'est pas initialisé.
+==>  je modif setZoomControls(zc)
+***************
+04-22 10:00:35.639: I/System.out(9895): waiting for debugger to settle...
+04-22 10:00:35.839: I/System.out(9895): waiting for debugger to settle...
+04-22 10:00:36.039: I/System.out(9895): waiting for debugger to settle...
+04-22 10:00:36.239: I/System.out(9895): waiting for debugger to settle...
+04-22 10:00:36.439: I/System.out(9895): waiting for debugger to settle...
+04-22 10:00:36.640: I/System.out(9895): waiting for debugger to settle...
+04-22 10:00:36.840: I/System.out(9895): waiting for debugger to settle...
+04-22 10:00:37.040: I/System.out(9895): debugger has settled (1308)
+04-22 10:00:37.230: W/ApplicationPackageManager(9895): getCSCPackageItemText()
+04-22 10:00:37.230: I/PersonaManager(9895): getPersonaService() name persona_policy
+04-22 10:00:37.370: E/MoreInfoHPW_ViewGroup(9895): Parent view is not a TextView
+04-22 10:00:37.611: I/Adreno-EGL(9895): <qeglDrvAPI_eglInitialize:381>: EGL 1.4 QUALCOMM build:  (CL3869936)
+04-22 10:00:37.611: I/Adreno-EGL(9895): OpenGL ES Shader Compiler Version: 17.01.11.SPL
+04-22 10:00:37.611: I/Adreno-EGL(9895): Build Date: 01/17/14 Fri
+04-22 10:00:37.611: I/Adreno-EGL(9895): Local Branch: 
+04-22 10:00:37.611: I/Adreno-EGL(9895): Remote Branch: 
+04-22 10:00:37.611: I/Adreno-EGL(9895): Local Patches: 
+04-22 10:00:37.611: I/Adreno-EGL(9895): Reconstruct Branch: 
+04-22 10:00:37.651: D/OpenGLRenderer(9895): Enabling debug mode 0
+04-22 10:00:47.030: V/CarteVitaleOCRActivity.java(9895): Starting Camera app
+04-22 10:00:47.200: W/ApplicationPackageManager(9895): getCSCPackageItemText()
+04-22 10:00:47.200: I/PersonaManager(9895): getPersonaService() name persona_policy
+04-22 10:00:47.280: E/MoreInfoHPW_ViewGroup(9895): Parent view is not a TextView
+04-22 10:00:47.580: D/(9895):  camera exists on device 
+04-22 10:00:48.211: I/Choreographer(9895): Skipped 61 frames!  The application may be doing too much work on its main thread.
+04-22 10:01:03.676: D/AndroidRuntime(9895): Shutting down VM
+04-22 10:01:03.676: W/dalvikvm(9895): threadid=1: thread exiting with uncaught exception (group=0x4186eda0)
+04-22 10:01:03.746: E/AndroidRuntime(9895): FATAL EXCEPTION: main
+04-22 10:01:03.746: E/AndroidRuntime(9895): Process: com.datumdroid.android.ocr.simple, PID: 9895
+04-22 10:01:03.746: E/AndroidRuntime(9895): java.lang.NullPointerException
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceChanged(CameraPreview.java:120)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:612)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.SurfaceView.access$000(SurfaceView.java:94)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.SurfaceView$3.onPreDraw(SurfaceView.java:183)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.ViewTreeObserver.dispatchOnPreDraw(ViewTreeObserver.java:879)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:2131)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.os.Looper.loop(Looper.java:157)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 10:01:03.746: E/AndroidRuntime(9895): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+*************
+04-22 10:24:00.209: D/Capture photo(12650):  cliik bouton Capture photo 
+04-22 10:24:01.160: D/(12650):  je onPictureTaken 
+04-22 10:24:01.410: D/(12650):  je pause
+04-22 10:24:01.440: I/CarteVitaleOCRActivity.java(12650): resultCode: 0
+04-22 10:24:01.440: D/CarteVitaleOCRActivity.java(12650):  onPhotoTaken
+04-22 10:24:01.460: D/dalvikvm(12650): GC_FOR_ALLOC freed 3379K, 27% free 19802K/26812K, paused 21ms, total 21ms
+04-22 10:24:01.480: I/dalvikvm-heap(12650): Grow heap (frag case) to 25.745MB for 3195088-byte allocation
+04-22 10:24:02.071: V/CarteVitaleOCRActivity.java(12650): Orient: 6
+04-22 10:24:02.071: V/CarteVitaleOCRActivity.java(12650): Rotation: 90
+04-22 10:24:02.091: D/dalvikvm(12650): GC_FOR_ALLOC freed 31K, 24% free 22895K/29936K, paused 14ms, total 14ms
+04-22 10:24:02.091: I/dalvikvm-heap(12650): Grow heap (frag case) to 28.765MB for 3195088-byte allocation
+04-22 10:24:02.151: D/dalvikvm(12650): GC_FOR_ALLOC freed 3120K, 31% free 22895K/33060K, paused 14ms, total 14ms
+04-22 10:24:02.151: I/dalvikvm-heap(12650): Grow heap (frag case) to 28.765MB for 3195088-byte allocation
+04-22 10:24:02.161: D/dalvikvm(12650): Trying to load lib /data/app-lib/com.datumdroid.android.ocr.simple-4/libandroid-magick.so 0x42aa1f90
+04-22 10:24:02.161: W/linker(12650): libandroid-magick.so has text relocations. This is wasting memory and is a security risk. Please fix.
+04-22 10:24:02.161: D/dalvikvm(12650): Added shared lib /data/app-lib/com.datumdroid.android.ocr.simple-4/libandroid-magick.so 0x42aa1f90
+04-22 10:24:02.161: D/dalvikvm(12650): No JNI_OnLoad found in /data/app-lib/com.datumdroid.android.ocr.simple-4/libandroid-magick.so 0x42aa1f90, skipping init
+04-22 10:24:02.221: D/dalvikvm(12650): Trying to load lib /data/app-lib/com.datumdroid.android.ocr.simple-4/libandroid-magick.so 0x42aa1f90
+04-22 10:24:02.221: D/dalvikvm(12650): Shared lib '/data/app-lib/com.datumdroid.android.ocr.simple-4/libandroid-magick.so' already loaded in same CL 0x42aa1f90
+04-22 10:24:02.932: D/dalvikvm(12650): GC_FOR_ALLOC freed 3452K, 21% free 23832K/29936K, paused 15ms, total 15ms
+04-22 10:24:02.932: V/CarteVitaleOCRActivity.java(12650): Before baseApi
+04-22 10:24:02.942: D/dalvikvm(12650): Trying to load lib /data/app-lib/com.datumdroid.android.ocr.simple-4/liblept.so 0x42aa1f90
+04-22 10:24:02.942: D/dalvikvm(12650): Added shared lib /data/app-lib/com.datumdroid.android.ocr.simple-4/liblept.so 0x42aa1f90
+04-22 10:24:02.942: D/dalvikvm(12650): Trying to load lib /data/app-lib/com.datumdroid.android.ocr.simple-4/libtess.so 0x42aa1f90
+04-22 10:24:02.962: D/dalvikvm(12650): Added shared lib /data/app-lib/com.datumdroid.android.ocr.simple-4/libtess.so 0x42aa1f90
+04-22 10:24:03.042: I/Tesseract(native)(12650): Initialized Tesseract API with language=eng
+04-22 10:24:03.042: D/dalvikvm(12650): Trying to load lib /data/app-lib/com.datumdroid.android.ocr.simple-4/liblept.so 0x42aa1f90
+04-22 10:24:03.042: D/dalvikvm(12650): Shared lib '/data/app-lib/com.datumdroid.android.ocr.simple-4/liblept.so' already loaded in same CL 0x42aa1f90
+04-22 10:24:03.052: D/dalvikvm(12650): Trying to load lib /data/app-lib/com.datumdroid.android.ocr.simple-4/liblept.so 0x42aa1f90
+04-22 10:24:03.052: D/dalvikvm(12650): Shared lib '/data/app-lib/com.datumdroid.android.ocr.simple-4/liblept.so' already loaded in same CL 0x42aa1f90
+04-22 10:24:03.052: D/TessBaseAPI(12650):  >>>> setImage() 
+04-22 10:24:03.052: D/TessBaseAPI(12650):  <<<< setImage() 
+04-22 10:24:03.132: D/>>>> getUTF8Text(12650):  texte extrait = \ _
+04-22 10:24:03.132: D/>>>> getUTF8Text(12650): _'_ \` V
+04-22 10:24:03.132: D/>>>> getUTF8Text(12650): , \
+04-22 10:24:03.132: D/>>>> getUTF8Text(12650):  
+04-22 10:24:03.132: D/>>>> getUTF8Text(12650): 1
+04-22 10:24:03.132: V/CarteVitaleOCRActivity.java(12650): OCRED TEXT: \ _
+04-22 10:24:03.132: V/CarteVitaleOCRActivity.java(12650): _'_ \` V
+04-22 10:24:03.132: V/CarteVitaleOCRActivity.java(12650): , \
+04-22 10:24:03.132: V/CarteVitaleOCRActivity.java(12650):  
+04-22 10:24:03.132: V/CarteVitaleOCRActivity.java(12650): 1
+04-22 10:24:03.152: I/Choreographer(12650): Skipped 101 frames!  The application may be doing too much work on its main thread.
+04-22 10:24:17.856: D/AndroidRuntime(12650): Shutting down VM
+04-22 10:24:17.856: W/dalvikvm(12650): threadid=1: thread exiting with uncaught exception (group=0x4186eda0)
+04-22 10:24:17.926: E/AndroidRuntime(12650): FATAL EXCEPTION: main
+04-22 10:24:17.926: E/AndroidRuntime(12650): Process: com.datumdroid.android.ocr.simple, PID: 12650
+04-22 10:24:17.926: E/AndroidRuntime(12650): java.lang.RuntimeException: Method called after release()
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.hardware.Camera._stopPreview(Native Method)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.hardware.Camera.stopPreview(Camera.java:628)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at com.datumdroid.android.ocr.simple.CameraPreview.surfaceDestroyed(CameraPreview.java:102)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.SurfaceView.updateWindow(SurfaceView.java:585)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.SurfaceView.onWindowVisibilityChanged(SurfaceView.java:240)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.View.dispatchWindowVisibilityChanged(View.java:8467)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1087)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1087)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1087)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1087)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewGroup.dispatchWindowVisibilityChanged(ViewGroup.java:1087)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1491)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1236)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6471)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:803)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.Choreographer.doCallbacks(Choreographer.java:603)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.Choreographer.doFrame(Choreographer.java:573)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:789)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.os.Handler.handleCallback(Handler.java:733)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.os.Handler.dispatchMessage(Handler.java:95)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.os.Looper.loop(Looper.java:157)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at android.app.ActivityThread.main(ActivityThread.java:5356)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at java.lang.reflect.Method.invokeNative(Native Method)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at java.lang.reflect.Method.invoke(Method.java:515)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1265)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1081)
+04-22 10:24:17.926: E/AndroidRuntime(12650): 	at dalvik.system.NativeStart.main(Native Method)
